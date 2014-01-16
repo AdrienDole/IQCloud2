@@ -1,0 +1,172 @@
+h2 small
+{
+   font-size:0.5em;
+}
+small+span
+{
+   margin-left: 15px;
+}
+
+body
+{
+	min-height: 0px !important;
+}
+img
+{
+    margin:  auto;  
+}
+form 
+{ 
+	margin:  auto; 
+}
+
+.message{
+	color:red;
+	text-align: center;
+	border-radius:15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background-color:rgba(200,200,200,0.7);
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	max-width: 400px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.pplan
+{
+	z-index:5;
+	background-color: #FFFFFF
+}
+.splan
+{
+	z-index:1;
+}
+#anim1 div
+{
+animation:myfirst 2s linear;
+/* Safari and Chrome: */
+-webkit-animation:myfirst 2s linear;
+}
+ #anim2 div
+{
+animation:myfirst2 2s linear;
+/* Safari and Chrome: */
+-webkit-animation:myfirst2 2s linear;
+}
+
+
+@keyframes myfirst
+{
+0%  { top:100px;}
+25%  { top:80px;}
+50%  { top:60px;}
+75%  { top:30px;}
+100% { top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%  { top:100px;}
+25%  { top:80px;}
+50%  { top:60px;}
+75%  { top:30px;}
+100% { top:0px;}
+}
+
+@keyframes myfirst2
+{
+0%  { top:-50px;}
+25%  { top: -30px;}
+50%  { top:-20px;}
+75%  { top:-10px;}
+100% { top:0px;}
+}
+
+@-webkit-keyframes myfirst2 /* Safari and Chrome */
+{
+0%  { top:-50px;}
+25%  { top: -30px;}
+50%  { top:-20px;}
+75%  { top:-10px;}
+100% { top:0px;}
+}
+
+footer ul
+{
+list-style:none;
+padding: 0;
+margin:auto; 
+text-decoration:none;
+}
+
+.footertop
+{
+padding-top : 20px;
+padding-bottom: 20px;
+background-color:#cecece;
+}
+
+.footerbot
+{
+background-color:#5e5e5e;
+}
+footer
+{
+	position: absolute;
+	bottom: 0px;
+	height: auto;
+	width: 100%;
+	margin:auto;
+}
+.centre_image
+{
+padding-top : 5px;
+text-align:center;
+}
+.centre
+{
+	text-align:center;
+}
+
+@media screen and (max-width: 767px) {
+footer
+{
+	position: relative;
+	bottom: 0px;
+	height: auto;
+	width: 100%;
+	margin:auto;
+}
+}
+@media screen and (max-height: 767px) {
+footer
+{
+	position: relative;
+	bottom: 0px;
+	height: auto;
+	width: 100%;
+	margin:auto;
+}
+}
+@media screen and (min-height: 767px) {
+footer
+{
+	position: absolute;
+	bottom: 0px;
+	height: auto;
+	width: 100%;
+	margin:auto;
+}
+}
+.botfont
+{
+	color:white;
+}
+.prebotfont 
+{ 
+font-weight:bold;
+}
